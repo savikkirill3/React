@@ -1,0 +1,79 @@
+.contact{
+    background-color: #222222;
+    text-align: center;
+    color: white;
+}
+.contact h2{
+    margin-bottom: 80px;
+}
+.contact__text{
+    margin: 0;
+}
+.contact__number{
+    margin-bottom: 40px;
+}
+
+.contact__title{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact__button{
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.contact__button a {
+    padding: 15px 130px 15px 130px;
+    background: #3333cc;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+}
+.form{
+    border-color: #4c4c4c;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.form__input{
+    color: white;
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: #222222;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+.form__input button {
+    font-size: 16px;
+    color: white;
+    width: 400px;
+    height: 60px;
+    background-color: #3333cc;
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+@media screen and (max-width: 425px){
+    .contact h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form{
+        width: 100%;
+    }
+    .form__input{
+        padding-left: 0;
+        width: 100%;
+    }
+    .form__input button{
+        width: 100%;
+    }
+}
