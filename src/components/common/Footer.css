@@ -1,0 +1,29 @@
+.footer{
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 5px;
+    color: #636363;
+    background-color: #1d1d1d;
+}
+#footer {
+    color: #636363;
+}
+.icon__item img{
+    margin-right: 10px;
+}
+.creators{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+.creators__item{
+    margin: 0 10px;
+}
+.icon__item img{
+    padding-top: 2px;
+    height: 35px;
+}
+.creator__text{
+    margin-top: 8px;
+    text-align: center;
+}
